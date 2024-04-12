@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  width: 300px;
+  background-color: #dda0dd;
+  color: #ffffff;
+  font-size: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ee82ee;
+}
+
+.btn:active {
+  background-color: #da70d6;
+}
